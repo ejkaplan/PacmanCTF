@@ -63,7 +63,7 @@ class Pacman_CTF_Game(object):
         self.scores = [0, 0]
         # Set up the logfile
         if log:
-            self.logfile = open("pacman_{}.csv".format(int(time.time())), "w")
+            self.logfile = open("logs/pacman_{}.csv".format(int(time.time())), "w")
             self.logfile.write("{}\n".format(len(self.passages)))
             for row in self.passages:
                 for cell in row:
