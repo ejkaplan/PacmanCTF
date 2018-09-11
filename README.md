@@ -9,3 +9,4 @@ The red player is trying to steal dots from the blue player's territory and vice
 ## The maze generation algorithm
 Maze generation is based on [this algorithm](https://www.contralogic.com/2d-pac-man-style-maze-generation/ "2D Pac-Man style maze generation"), with checks to ensure that the mazes are sufficiently large. The algorithm is also modified to make the mazes rotationally symmetrical. After the maze is generated, it is divided into red and blue territory by starting two flood fills from symmetrical points on the maze and running them simultaneously until all spaces are divided up.
 
+![](https://github.com/ejkaplan/PacmanCTF/blob/master/pac_ctf.gif)
